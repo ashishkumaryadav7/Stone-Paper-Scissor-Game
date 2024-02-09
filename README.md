@@ -1,2 +1,2 @@
 # Stone-Paper-Scissor-Game
-Stone-Paper-Scissor-Game using HTML , CSS , JavaScript
+Stone-Paper-Scissor-Game is developed by using HTML , CSS , JavaScript

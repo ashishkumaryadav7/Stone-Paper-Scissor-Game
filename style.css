@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 146, 132);
+    height: 100%;
+}
+.heading{
+    background-color: rgb(129, 185, 167);
+    border-radius: 25px;
+}
+.heading h1{
+    font-weight: bolder;
+    font-size: 4.5rem;
+    padding: 2rem;
+    color: transparent;
+    text-shadow: 0 0 2px green, 0 0 15px red;
+}
+.choices{
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+
+}
+.choice1{
+    background-image: url(/images/stone.png);
+}
+.choice2{
+    background-image: url(/images/paper.png);
+}
+.choice3{
+    background-image: url(/images/scisssor.png);
+}
+.choice1,.choice2,.choice3{
+    width: 190px;
+    height: 190px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-size: 130%;
+    background-position: center;
+}
+.choice1:hover{
+    border: 10px solid;
+    border-color: rgb(138, 122, 30);
+    opacity: 0.8;
+}
+.choice2:hover{
+    border: 10px solid;
+    border-color: rgb(138, 122, 30);
+    opacity: 0.8;
+}
+.choice3:hover{
+    border: 10px solid;
+    border-color: rgb(138, 122, 30);
+    opacity: 0.8;
+}
+.score{
+    margin-top: 2.5rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.user,.comp{
+    text-align: center;
+}
+.user p:nth-child(2),.comp p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+#userscr,#compscr{
+    font-size: 2.3rem;
+}
+.messages{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(84, 114, 115);
+    border-radius: 20px;
+}
+#message{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.reset{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 70px;
+    width: 70px;
+    background-image: url("https://e7.pngegg.com/pngimages/365/764/png-clipart-computer-icons-refresh-free-one-button-reload-text-logo-thumbnail.png");
+    border-radius: 50%;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.3s ease-in;
+}
+.reset:hover{
+    transform: rotate(30deg);
+}

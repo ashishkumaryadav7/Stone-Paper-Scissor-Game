@@ -30,13 +30,13 @@
 
 }
 .choice1{
-    background-image: url(/images/stone.png);
+    background-image: url(images/stone.png);
 }
 .choice2{
-    background-image: url(/images/paper.png);
+    background-image: url(images/paper.png);
 }
 .choice3{
-    background-image: url(/images/scisssor.png);
+    background-image: url(images/scisssor.png);
 }
 .choice1,.choice2,.choice3{
     width: 190px;
